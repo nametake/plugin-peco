@@ -1,13 +1,16 @@
-peco
+# peco
 ----
 
-Based directly on the percol plugin.
+It is fish's peco plugin that forked [oh-my-fish/plugin-peco](https://github.com/oh-my-fish/plugin-peco).
 
-Please bind peco_select_history to your favorite key.
+Added key_bindings.fish file for fisherman, and removed bottom up flag.
 
-If you'd like to bind CTRL+R
+## Install
 ```
-function fish_user_key_bindings
-  bind \cr 'peco_select_history (commandline -b)'
-end
+fisher install nametake/plugin-peco
 ```
+
+## Keybinding
+* CTRL-R: select history
+* CTRL-K: select kill process
+
