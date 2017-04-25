@@ -1,5 +1,4 @@
 # peco
-----
 
 It is fish's peco plugin that forked [oh-my-fish/plugin-peco](https://github.com/oh-my-fish/plugin-peco).
 
